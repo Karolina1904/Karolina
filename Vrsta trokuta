@@ -1,0 +1,9 @@
+a=int(input('Unesi duljinu prve stranice: '))
+b=int(input('Unesi duljinu druge stranice: ‘))
+c=int(input('Unesi duljinu treće stranice: '))
+if a==b and b==c:
+print ("Trokut je jednakostraničan.")
+if a==b and b!=c or a==c and c!=b or b==c and c!=a:
+print ("Trokut je jednakokračan.")
+else:
+print ("Trokut je raznostraničan.")
